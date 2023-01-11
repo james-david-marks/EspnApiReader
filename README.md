@@ -7,15 +7,25 @@ A java library for parsing ESPN Fantasy Football requests
 4. This project uses a largely undocumented API loosely identified as "ESPN API v3"
 5. The initial endpoint used for mapping is: https://fantasy.espn.com/apis/v3/games/ffl/seasons/2022/segments/0/leagues/{league}?rosterForTeamId=10&view=mroster where {league} will be replace with your league id
 6. CRITICAL: You need to edit the file src/resources/config.properties and add four values
+
   a. LEAGUE
+  
   b. TEAMID (replace TEAMID 10 with your TEAMID for your league)
+  
   c. SWID
+  
   d. espn_s2
+  
 7. You can find all of these vaules by opening ESPN in Chrome and logging in to your fantasy team
+
   a. LEAGUE may be found on your URI as "leagueid="
+  
   b. TEAMID may be found on our URI as "teamid="
+  
   c. SWID may be found by using developer tools (right click on the page and select inspect, go to Application and find the cookies for https://espn.fantasy.com and find      the SWID cookie)
+  
   d. espn_s2 may be found by using developer tools (right click on the page and select inspect, go to Application and find the cookies for https://espn.fantasy.com and        find the espn_s2 cookie)
+  
 8. Run the application as a Java Application
 
 What you should expect is that it will connect to the API, make a request using the mroster filter, return a JSON object that will be parsed into some classes in the project, and, finally, print the latest Season 2022 rankings for your team. 
