@@ -1,4 +1,4 @@
-# EspnApi
+# EspnApiReader
 A java library for parsing ESPN Fantasy Football requests
 
 1. This project is designed to construct some basic features of a data access layer (DAL) for ESPN API result sets.
