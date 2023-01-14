@@ -59,7 +59,9 @@ Acknowledgements and References
 
 There seems to be a lot more information available about ESPN APIs than there was even two months ago when I began my research. At that time I found these people and posts extremely helpful in pointing me in the right direction:
 
-Mike Kreiser https://github.com/mkreiser/ESPN-Fantasy-Football-API (Javascript)
-John Mannelly https://jman4190.medium.com/how-to-use-python-with-the-espn-fantasy-draft-api-ecde38621b1b (Python)
-Steven Morse https://stmorse.github.io/journal/espn-fantasy-python.html (Python)
+<ul>
+<li> Mike Kreiser https://github.com/mkreiser/ESPN-Fantasy-Football-API (Javascript)</li>
+<li>John Mannelly https://jman4190.medium.com/how-to-use-python-with-the-espn-fantasy-draft-api-ecde38621b1b (Python)</li>
+<li>Steven Morse https://stmorse.github.io/journal/espn-fantasy-python.html (Python)</li>
+</ul>
     
