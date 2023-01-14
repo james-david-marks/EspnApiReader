@@ -55,5 +55,11 @@ The main method in the ReaderMethod class will tease you by returning a team ros
 
 We welcome your feedback and would love you to join us on our journey to map ESPN API v3. 
 
-Stay tuned for more information about where we learned what little we know about ESPN API v3. We intend to attribute sources that have pointed us in the right direction. It is getting late, however, so more to come later.
+Acknowledgements and References
+
+There seems to be a lot more information available about ESPN APIs than there was even two months ago when I began my research. At that time I found these people and posts extremely helpful in pointing me in the right direction:
+
+Mike Kreiser https://github.com/mkreiser/ESPN-Fantasy-Football-API (Javascript)
+John Mannelly https://jman4190.medium.com/how-to-use-python-with-the-espn-fantasy-draft-api-ecde38621b1b (Python)
+Steven Morse https://stmorse.github.io/journal/espn-fantasy-python.html (Python)
     
